@@ -1,0 +1,35 @@
+.speech{
+    font-size: small;
+    color: black;
+    text-decoration: dashed;
+}
+.song{
+    font-size: medium;
+    color: black;
+    text-decoration-color: antiquewhite;
+}
+.direction{
+    font-size: small;
+    color: black;
+    background-color: aquamarine;
+}
+direction:hover{
+    background-color: aqua;
+    color: brown;
+}
+.Gama{
+    font-style: inherit;
+    font-size: medium;
+    color: blue;
+    
+}
+.Princess{
+    font-style: inherit;
+    font-size: medium;
+    color: blueviolet;
+}
+.Chorus{
+    font: 1em sans-serif;
+    font-size: smaller;
+    color: bisque;
+}
