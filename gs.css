@@ -2,14 +2,17 @@
     font-size: small;
     color: black;
     text-decoration: dashed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .song{
     font-size: large;
+    font-family: "Lucida Console", "Courier New", monospace;
     color: black;
     text-decoration-color: antiquewhite;
 }
 .direction{
     font-size: small;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     background-color: aquamarine;
 }
@@ -33,3 +36,25 @@
     font-size: smaller;
     color: bisque;
 }
+table,th,td{
+    border: 2px solid;
+    border-color:brown;
+    padding:10px;
+}
+th{
+    font-size: larger;
+    font-style: oblique;
+    font-variant-caps: all-petite-caps;
+}
+table{
+    width: 70%;
+    text-align:center;
+    margin: 5%;   
+}
+tr:hover{
+    background-color: cyan;
+}
+tr:nth-child(odd){
+    background-color: burlywood;
+}
+
